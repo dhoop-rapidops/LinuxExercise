@@ -1,0 +1,50 @@
+1) pwd, ls -la
+
+2) mkdir intern-2020 rapidops-2020
+
+3) cd intern-2020/
+   touch dev.txt helloworld.txt
+
+4)
+
+cat > dev.txt
+A developer is an individual that builds 
+create software and applications.
+writes, debugs and executes the source code of a software application
+
+cat helloworld.txt
+echo helloworld
+
+5) cp dev.txt helloworld.txt ../rapidops-2020
+
+6) mv dev.txt devloper.txt
+   mv helloworld.txt hello_world.txt
+
+7) chmod u=r devloper.txt
+   chmod u=rwx,g=rw hello_world.txt
+
+8) tar -cvf MyArchive.tar devloper.txt hello_world.txt && mv MyArchive.tar ../intern-2020
+
+9) cp MyArchive.tar MyArchiveCopy.tar && rm MyArchive.tar
+
+10) find ~ -name dev.txt
+
+11) top
+
+12) 
+
+du -h intern-2020/ rapidops-2020/
+24K	intern-2020/
+12K	rapidops-2020/
+
+df
+
+13) ps -e | grep firefox
+
+14) wget https://releases.mattermost.com/desktop/4.3.2/mattermost-desktop-4.3.2-linux-i386.deb
+
+15) ifconfig
+
+
+
+
